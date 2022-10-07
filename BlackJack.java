@@ -15,11 +15,6 @@ Possible Improvements:
 - Adjust time for each part to the number of players
 - Does not keep track of the stats of people who leave
 
-Bugs:
-- fix the number display when users play again
-Questions:
-
-- Timing to avoid a spam of text?
  */
 
 
