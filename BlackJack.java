@@ -79,7 +79,9 @@ public class BlackJack {
                     this.players.add(new Player(this.deck));
                 }
             }
-
+            if (this.players.size() == 0) {
+                return;
+            }
             boolean firstIn = true;
             String ans = "";
             while (!ans.equals("y") && !ans.equals("n") && !ans.equals("yes") && !ans.equals("no")) {
